@@ -17,4 +17,7 @@
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
 </p>
+<div class="article-container"></div>
+{{ partial "comments.html" . }}
+</div>
 {{ end }}
